@@ -135,6 +135,7 @@ while True:
             
             else:
                 print('Operação invalida, por favor selecione novamente a operação desejada.')
+                
     elif opcao_menu_inicial == '1':
         print('Bem-vindo ao menu novo cliente')
         
@@ -161,14 +162,10 @@ while True:
             print('########### Nova conta ###########')
             cpf = input('Informe seu CPF: ')
             
-            if contas:
-                numero_sequencial_conta = contas[-1]['numero_conta'] + 1
-                print(numero_sequencial_conta)
-                retorno = criar_conta_corrente(lista_clientes=cp_clientes, agencia=AGENCIA, numero_conta=numero_sequencial_conta, cpf=cpf)
-                print(retorno)
-            else:
-                retorno = criar_conta_corrente(lista_clientes=cp_clientes, agencia=AGENCIA, numero_conta=1, cpf=cpf)
-                print(retorno)
+            numero_sequencial_conta = len(contas) + 1
+
+            retorno = criar_conta_corrente(lista_clientes=cp_clientes, agencia=AGENCIA, numero_conta=numero_sequencial_conta, cpf=cpf)
+            print(retorno)
         else:
             print('ERRO! Nenhum usuario criado!')
         
