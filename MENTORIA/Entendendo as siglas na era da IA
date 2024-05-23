@@ -1,0 +1,45 @@
+IA, ML e DL = NÃO SÃO A MESMA COISA
+    ML = Subconjunto da IA
+    DL = Subconjunto de ML
+
+ML == Machine Learning
+    sub-categoria de IA.
+
+    Cases de uso:
+        Recomendação de produtos
+        Detecção de Fraudes
+        Processamento de Linguagem Natural
+        Reconhecimento Facial
+    
+    Classificações:
+        Aprendizado Supervisionado:
+            -> Regressão
+            -> Classificação
+        Aprendizado Não Supervisionado
+            -> Agrupamento
+            -> Redução de dimensionalidade
+        Aprendizado por reforço
+            -> Métodos heuristicos
+            -> IA em jogos
+            -> Decições em tempo real
+
+DL == Deep Learning
+    sub-categoria de ML
+
+    GenAI = Generative AI
+        Finalidade: Inovação e geração de conteudo.
+        Aprendizado: Adapta-se e cria a partir de poucos exemplos não-estruturados.
+        Saida: Novos designs, textos, interações
+
+        LLM == Modelos de linguagem de grande escala
+            LLMs -> Focam em tarefas como geração de textos, tradução e sumarização
+            GPT-3 -> 175 Bilhões de parametros
+
+NLP == Natural Language Processing
+CV == Computer Vision
+RL == Reinforcement Learning
+GANs == Generative Adversarial Networks
+CNN == Convolutional Neural Networks
+RNN == Recurrent Neural Networks
+AIoT == Artificial Intelligence of Things
+AGI == Artifical General Intelligence
